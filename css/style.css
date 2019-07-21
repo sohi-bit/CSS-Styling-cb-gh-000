@@ -14,10 +14,12 @@ selector{
 
 /* Type Selector */
 
-p { /* select <p> */
+p { /* select <p>
+  is type selector, is good for styling one style of element*/
   font-size: 1em;/* 16px, 7pt, 100%, 1em */
   line-height: 1.5em;
 }
+
 
 figcaption { /* Caption under image or video */
   /* font-weight: normal;
@@ -33,3 +35,7 @@ figcaption { /* Caption under image or video */
   /*To use your own font: Google fonts */
   text-align: right;
 }
+
+
+/* Class selector (applied to as many elements as you like)
+can create a style that can be added various elements & types*/
