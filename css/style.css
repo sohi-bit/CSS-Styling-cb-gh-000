@@ -1,3 +1,4 @@
+@import url(@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps&display=swap')
 /* This is a comment */
 
 /* CSS Syntax:
@@ -26,5 +27,7 @@ figcaption { /* Caption under image or video */
   color: #FF0000;
   /* first two:red, second two:green, last two:blue
   rgba(number, number, number, number)= can find the values in digital color meter (spotlight)*/
+
+  /*To use your own font: Google fonts */
   text-align: right;
 }
