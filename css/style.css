@@ -45,11 +45,11 @@ can create a style that can be added various elements & types*/
   text-shadow: 0 2px 3px #000;
 }
 
-/* ID selector = apply to 1 unique element per page 
+/* ID selector = apply to 1 unique element per page
 select element with ID = "logo"*/
 #logo {
   background: aqua;
 }
 
-/* Descendnet Selector 
+/* Descendnet Selector
 */
