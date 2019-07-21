@@ -24,7 +24,7 @@ figcaption { /* Caption under image or video */
   8*/
   font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
   color: #FF0000;
-  /* first two:red, second two:green, last two:blue 
+  /* first two:red, second two:green, last two:blue
   can find the values in digital color meter (spotlight)*/
   text-align: right;
 }
