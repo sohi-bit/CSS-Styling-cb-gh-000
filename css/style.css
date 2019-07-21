@@ -25,6 +25,6 @@ figcaption { /* Caption under image or video */
   font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
   color: #FF0000;
   /* first two:red, second two:green, last two:blue
-  can find the values in digital color meter (spotlight)*/
+  rgba(number, number, number, number)= can find the values in digital color meter (spotlight)*/
   text-align: right;
 }
