@@ -39,3 +39,9 @@ figcaption { /* Caption under image or video */
 
 /* Class selector (applied to as many elements as you like)
 can create a style that can be added various elements & types*/
+.milk-text{ /* select elements with class attribute=milk-text */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+  
+}
