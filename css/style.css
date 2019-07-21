@@ -77,3 +77,7 @@ ex. want to change links at the bottom of page section: blue --> click --> purpl
   color: black;
   text-decoration: underline;
 }
+
+#details a:active {
+  color: red;
+}
