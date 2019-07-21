@@ -8,3 +8,10 @@ selector{
 }
 
 */
+
+/* Type Selector */
+
+p { /* select <p> */
+  font-size: 1em;/* 16px, 7pt, 100%, 1em */
+  line-height: 1.5em;
+}
