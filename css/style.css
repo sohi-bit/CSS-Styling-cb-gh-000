@@ -23,4 +23,5 @@ figcaption { /* Caption under image or video */
   font-family: Georgia, "New Times Roman", serif;
   8*/
   font: normal 0.75em/1.5em Georgia, "New Times Roman", serif;
+  color: #000000 /* first two:red second two:green last two:blue */
 }
