@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script&display=swap');
+/* @import allows import diff code from web
+Need to be at top of the file*/
+
+/* CSS Syntax:
+
+selector{
+  property: value;
+  property: value;
+}
+
+*/
+
+/* Type Selector */
+
+p { /* select <p>
+  is type selector, is good for styling one style of element*/
+  font-size: 1em;/* 16px, 7pt, 100%, 1em */
+  line-height: 1.5em;
+}
+
+
+figcaption { /* Caption under image or video */
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;
+  8*/
+  font: normal 0.75em/1.5em 'Clicker Script', cursive;
+  color: #FF0000;
+  /* first two:red, second two:green, last two:blue
+  rgba(number, number, number, number)= can find the values in digital color meter (spotlight)*/
+
+  /*To use your own font: Google fonts */
+  text-align: right;
+}
+
+
+/* Class selector (applied to as many elements as you like)
+can create a style that can be added various elements & types*/
+.milk-text{ /* select elements with class attribute=milk-text */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID selector = apply to 1 unique element per page
+select element with ID = "logo"*/
+#logo {
+  background: aqua;
+}
+
+/* Descendnet Selector*/
+#logo h1 { /* only style <h1> if they are inside the id="logo" */
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/*Pseudo Selector
+select element based on relationship amongst other elements
+ex. want to change links at the bottom of page section: blue --> click --> purple */
+#details a:link {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
